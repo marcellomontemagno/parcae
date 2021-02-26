@@ -1,0 +1,35 @@
+{
+  "name": "parcae",
+  "version": "0.0.0",
+  "description": "⏳ Programmatically step through asynchronous code during test ⏳",
+  "main": "dist/umd/umd.js",
+  "scripts": {
+    "build:app": "webpack --config webpack.app.js",
+    "build:umd": "webpack --config webpack.umd.js",
+    "build": "npm run build:app && npm run build:umd",
+    "start": "webpack-dev-server --config webpack.dev.js",
+    "test": "jest"
+  },
+  "author": "Marcello Montemagno",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcellomontemagno/parcae.git"
+  },
+  "bugs": {
+    "url": "https://github.com/marcellomontemagno/parcae/issues"
+  },
+  "homepage": "https://github.com/marcellomontemagno/parcae",
+  "keywords": [
+    "async",
+    "await",
+    "promise",
+    "test",
+    "asynchronous"
+  ],
+  "devDependencies": {
+    "@poach/core": "0.0.3",
+    "@poach/jest": "0.0.3",
+    "@poach/react": "0.0.3"
+  }
+}
