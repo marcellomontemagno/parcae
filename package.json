@@ -1,6 +1,6 @@
 {
   "name": "parcae",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "⏳ Programmatically step through asynchronous code during test ⏳",
   "main": "dist/umd/umd.js",
   "scripts": {
